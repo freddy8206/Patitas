@@ -1,0 +1,111 @@
+
+#estilo{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+/*ETIQUETAS*/
+body{
+background-image: url(../img/fondo09.jpg);
+background-repeat: repeat;
+background-size: auto;
+background-attachment: fixed;
+}
+
+h1{
+font-family: 'Californian FB', cursive;
+color: darkblue;
+margin-left: 10px;
+font-size: 30px;
+text-align: left; 
+}
+
+h2{
+font-family: 'Californian FB', cursive;
+color: brown;
+margin-left: 10px;
+font-size: 50px;
+text-align: left;
+}
+
+h3{
+font-family: 'Tahoma', cursive;
+color: LightYellow;
+margin-left: 10px;
+font-size: 16px;
+text-align: left;
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background: #4682B4;
+border-radius: 0px;
+
+}
+ul{
+margin: auto;
+padding-top: 1px;
+}
+
+li{
+	font-family: 'Californian FB', cursive;
+	float: left;
+	list-style-type: none;
+	padding: 18px;
+	background: none;
+}
+
+section{
+	width: 700px;
+	background-image: url(../img/fondo01.jpg);
+	height: 4000px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 0px;
+}
+
+aside{
+	width: 280px;
+	background: #4682B4;
+	height: 4000px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 0px;
+}
+
+footer{
+width: 1000px;
+height: 80px;
+background: #A9A9A9;
+float: left;
+margin-top: 20px;
+border-radius: 0px;
+margin-bottom: 20px;
+}
+
+p{
+	font-family: 'Californian FB', cursive;
+	color: darkblue;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: darkblue; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/*SEUDO CLASES*/
